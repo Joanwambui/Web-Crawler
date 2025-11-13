@@ -168,10 +168,6 @@ After the first crawl the subsequent crawls involved doing the comparison and hi
 <img width="1865" height="673" alt="image" src="https://github.com/user-attachments/assets/afc41b6f-3bda-4402-9613-8bb9eea8d761" />
 
 
-The above is the result after a succesful Scheduler crawl as shown below:
-
-<img width="664" height="472" alt="image" src="https://github.com/user-attachments/assets/0a28258d-63ce-4817-b656-dd2075cccc8d" />
-
 
 ---
 
@@ -183,14 +179,21 @@ The project uses APScheduler to run the crawler and generate reports daily. Afte
 
 The following image shows a full execution cycle triggered by the scheduler. It includes running the crawler and generating reports.
 
-![Scheduler Execution](attachment:3.png)
+The above, in order to actually identify the differences is the result after a succesful Scheduler crawl as shown below:
+
+<img width="664" height="472" alt="image" src="https://github.com/user-attachments/assets/0a28258d-63ce-4817-b656-dd2075cccc8d" />
+
 
 ### MongoDB Change Log View
 
 This is a snapshot from MongoDB showing book entries with detailed fields, crawl status, and timestamps. The database stores both new and updated entries.
 
-![Mongo View 1](attachment:4.png)
-![Mongo View 2](attachment:5.png)
+<img width="1833" height="771" alt="image" src="https://github.com/user-attachments/assets/0a74c20c-5dee-40b6-a3bd-4aac949bded2" />
+
+
+
+<img width="1864" height="749" alt="image" src="https://github.com/user-attachments/assets/674633a8-2fa4-4422-85f1-8c88aeb2d079" />
+
 
 ---
 
@@ -203,6 +206,16 @@ A RESTful API was developed using FastAPI. It allows clients to:
 * View detailed information for a specific book
 * View change logs for recently updated books
 
+Used Swagger UI as shown below to test the endpoints. You can try it yourself on this link: 
+
+
+<img width="680" height="874" alt="image" src="https://github.com/user-attachments/assets/bc171dab-6beb-46bf-a4e7-f4fba97ad310" />
+
+
+
+
+
+
 ### API Features
 
 * API key-based authentication
@@ -210,13 +223,7 @@ A RESTful API was developed using FastAPI. It allows clients to:
 * Swagger documentation and OpenAPI schema
 * Modular routing and models using Pydantic
 
-### Repository Setup
 
-A clean GitHub repository structure was used, with separation between crawler, API, scheduler, and tests.
-
-![Repository Setup](attachment:8.png)
-
----
 
 ## 7. System Flow Summary
 
