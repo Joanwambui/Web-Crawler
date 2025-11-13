@@ -297,6 +297,3 @@ fk_crawler/
 
 This project provides a complete solution for real-time monitoring of an e-commerce site. It covers data extraction, historical tracking, API access, and reporting—all built using scalable and maintainable Python practices. The architecture is modular, fault-tolerant, and fully documented, making it suitable for deployment and extension in real-world monitoring systems.
 
----
-
-Let me know if you'd like this exported as a PDF or integrated directly into your GitHub README file.
