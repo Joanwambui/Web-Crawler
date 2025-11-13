@@ -11,6 +11,92 @@ Here is a professional, structured, and clean **data storytelling document** tha
 
 
 
+#  Setup Instructions
+
+1. Clone the repository to your machine:
+
+   ```
+   git clone <repository-url>
+   cd fk_crawler
+   ```
+
+2. Create and activate a Python virtual environment:
+
+   ```
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+3. Install all required dependencies:
+
+   * Crawler and scheduler dependencies:
+
+     ```
+     pip install -r books/books/requirements.txt
+     ```
+   * API dependencies:
+
+     ```
+     pip install -r fastapi_app/requirements.txt
+     ```
+
+4. Create a `.env` file inside `books/books/` and `fastapi_app/`.
+   These files provide the MongoDB connection string, the database name, and API authentication details.
+
+5. Run each part of the system:
+
+   * Start the crawler:
+
+     ```
+     cd books
+     scrapy crawl book_spider
+     ```
+   * Start the API server:
+
+     ```
+     uvicorn fastapi_app.main:app --reload
+     ```
+   * Run the daily scheduler:
+
+     ```
+     python scheduler/daily_scheduler.py
+     ```
+
+---
+
+#  Python Version and Dependency Versions
+
+This project runs on **Python 3.11+**.
+
+All required libraries are listed in the included requirements files:
+
+* `books/books/requirements.txt`
+* `fastapi_app/requirements.txt`
+
+Installing these files ensures the correct versions of Scrapy, FastAPI, Motor, PyMongo, APScheduler, dotenv, and related packages are available.
+
+---
+
+#  `.env` File for Configuration
+
+The `.env` file must contain the following values:
+
+```
+MONGODB_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/books_db
+MONGODB_DB_NAME=books_db
+
+API_KEY=supersecretapikey
+RATE_LIMIT_PER_HOUR=100
+```
+
+* `MONGODB_URL` holds the full connection string for MongoDB Atlas or a local MongoDB instance.
+* `MONGODB_DB_NAME` sets the name of the database used by both the crawler and the API.
+* `API_KEY` controls access to the API.
+* `RATE_LIMIT_PER_HOUR` defines the maximum number of requests allowed per hour for each client.
+
+
+
+
 
 ## 1. Introduction
 
