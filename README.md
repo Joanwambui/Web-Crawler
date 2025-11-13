@@ -105,7 +105,7 @@ This document outlines the design and implementation of a production-style web m
 ---
 
 ## 2. Business Context and Problem Statement
-Working for a content aggregation company responsible for monitoring product-related websites. The task is to track updates on a site by building an end-to-end system that automates the following:
+The task is to track updates on a site by building an end-to-end system that automates the following:
 
 1. Crawling and storing product data in a scalable, fault-tolerant way.
 2. Detecting any changes in the data over time and maintaining historical records.
@@ -146,13 +146,32 @@ The crawler handles pagination, retry logic, transient failures, and can resume 
 
 This image shows the first successful crawl. The `.env` file was correctly loaded and a connection to MongoDB was established.
 
-![First Crawl](attachment:1.png)
+<img width="954" height="588" alt="image" src="https://github.com/user-attachments/assets/2dcea6ea-e521-412f-86a5-b01ccdcabd03" />
+
+
+
+<img width="1394" height="262" alt="image" src="https://github.com/user-attachments/assets/c42c4f16-9f0b-4d2e-b7b1-ee797a3f0975" />
+
+
 
 ### Execution Log - Second Run with Change Detection
 
-A second crawl detects changes and logs new or updated records in MongoDB, generating the report files.
+A second crawl detects changes and logs new or updated records in MongoDB, generating the report files. Ideally after the first crawl the rest are scheduled crawls.
+Their primary goal is to check against the Mongo DB data and that provided on the website and highlight the values that appeared to have changed.
 
-![Change Detection](attachment:2.png)
+Mongo Db Original Data was 1000 as shown:
+<img width="1264" height="538" alt="image" src="https://github.com/user-attachments/assets/befd5fdd-0cce-4b1d-85ee-7eec9b4bbc44" />
+
+
+After the first crawl the subsequent crawls involved doing the comparison and highlighting the differences as shown:
+
+<img width="1865" height="673" alt="image" src="https://github.com/user-attachments/assets/afc41b6f-3bda-4402-9613-8bb9eea8d761" />
+
+
+The above is the result after a succesful Scheduler crawl as shown below:
+
+<img width="664" height="472" alt="image" src="https://github.com/user-attachments/assets/0a28258d-63ce-4817-b656-dd2075cccc8d" />
+
 
 ---
 
