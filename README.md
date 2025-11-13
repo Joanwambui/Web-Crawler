@@ -4,62 +4,7 @@ Monitors BooksToScrape.com using Scrapy + FastAPI. Detects changes, logs them in
 Here is a professional, structured, and clean **data storytelling document** that captures your entire project, using complete sentences and formal tone, without any unnecessary emojis or casual language.
 
 # Project Structure
-fk_crawler/
-│
-├── books/                         # Scrapy Project (Crawler)
-│   ├── scrapy.cfg
-│   ├── __init__.py
-│   ├── .scrapy/                   # HTTP cache / crawl state (auto-generated)
-│   ├── logs/                      # Crawl logs
-│   ├── crawl_state/               # Jobdir resume files
-│   └── books/
-│       ├── __init__.py
-│       ├── items.py
-│       ├── pipelines.py
-│       ├── settings.py
-│       ├── middlewares.py
-│       └── spiders/
-│           ├── __init__.py
-│           └── book_spider.py
-│
-├── fastapi_app/                   # REST API Layer
-│   ├── __init__.py
-│   ├── main.py                    # FastAPI entrypoint
-│   ├── models.py                  # Pydantic response schemas
-│   ├── database.py                # Async DB helpers (Motor)
-│   ├── routes/
-│   │   ├── __init__.py
-│   │   └── books.py               # Book API (filters, sorting, pagination)
-│   ├── requirements.txt
-│   └── .env                       # API environment variables
-│
-├── scheduler/                     # Daily Scheduler + Reporting
-│   ├── daily_scheduler.py         # APScheduler or cron runner
-│   └── generate_report.py         # Creates daily CSV/JSON reports
-│
-├── reports/                       # Output Reports (auto-generated)
-│   ├── daily_changes_*.csv
-│   └── daily_changes_*.json
-│
-├── tests/                         # Global Test Suite (Pytest)
-│   ├── __init__.py
-│   ├── html/                      # Sample HTML snapshots for test_spider
-│   ├── test_api.py                # API-level tests (integration)
-│   ├── test_api_books.py          # Books API tests
-│   ├── test_scheduler.py          # Scheduler tests
-│   ├── test_spider.py             # Scrapy spider tests
-│   └── test_utils.py              # Helper/utility tests
-│
-├── venv/                          # Python virtual environment
-└── README.md                      # Documentation
-
-
-
-
-
-
-
-
+<img width="447" height="611" alt="image" src="https://github.com/user-attachments/assets/23d8a638-e42f-434a-90dc-8fad77167c8f" />
 
 
 
