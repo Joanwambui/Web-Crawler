@@ -6,7 +6,14 @@ Here is a professional, structured, and clean **data storytelling document** tha
 # Project Structure
 <img width="447" height="611" alt="image" src="https://github.com/user-attachments/assets/23d8a638-e42f-434a-90dc-8fad77167c8f" />
 
+# Prerequisites
 
+Before you begin, ensure the following are installed:
+
+Python 3.11+
+Git
+MongoDB Atlas account 
+pip (Python package manager)
 
 
 
