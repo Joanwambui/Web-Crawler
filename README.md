@@ -212,7 +212,19 @@ Used Swagger UI as shown below to test the endpoints. You can try it yourself on
 <img width="680" height="874" alt="image" src="https://github.com/user-attachments/assets/bc171dab-6beb-46bf-a4e7-f4fba97ad310" />
 
 
+<img width="721" height="868" alt="image" src="https://github.com/user-attachments/assets/52020cf9-81e3-44a6-b41e-b635e1dac802" />
 
+
+<img width="884" height="870" alt="image" src="https://github.com/user-attachments/assets/a2895381-cfac-4de7-8e72-09012c3f2258" />
+
+
+<img width="1675" height="919" alt="image" src="https://github.com/user-attachments/assets/aec9ee53-c725-4315-8e13-94a6de13bc15" />
+
+
+Every GET request if running on your machine and not yet deployed for public consumption for example on render, your terminal will return the 200 code.
+This lets us know the endpoints respond well.
+
+<img width="1840" height="152" alt="image" src="https://github.com/user-attachments/assets/716aaf9a-1f05-4690-a3ed-d95b91741bf3" />
 
 
 
