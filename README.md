@@ -10,10 +10,10 @@ Here is a professional, structured, and clean **data storytelling document** tha
 
 Before you begin, ensure the following are installed:
 
-Python 3.11+
-Git
-MongoDB Atlas account 
-pip (Python package manager)
+1. Python 3.11+
+2. Git
+3. MongoDB Atlas account 
+4. pip (Python package manager)
 
 
 
