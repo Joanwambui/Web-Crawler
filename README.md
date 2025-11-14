@@ -247,35 +247,16 @@ Below is the end-to-end flow of how the system works:
 4. **Reports** are generated in JSON and CSV formats.
 5. **API** exposes the data securely with filtering, sorting, and documentation.
 
-### Extended Scheduler Log (Long Run)
-
-This run includes a complete crawl and reporting cycle lasting over 22 minutes.
-
-![Extended Scheduler Log](attachment:9.png)
-
 ### MongoDB Final State View
 
 All book data, including unchanged entries, is maintained with crawl timestamps and content hashes.
+Remember, if changes are realize we will take snapshots of these changes then we will update our books collection with the correct changes.
+<img width="1902" height="874" alt="image" src="https://github.com/user-attachments/assets/a715abd9-bf89-456d-b564-103251c1457c" />
 
-![Final Mongo View](attachment:10.png)
 
----
 
-## 8. Project Architecture and Folder Structure
 
-```
-fk_crawler/
-├── books/           # Scrapy crawler code
-├── fastapi_app/     # FastAPI server
-├── scheduler/       # APScheduler tasks
-├── reports/         # Generated report files
-├── tests/           # Unit and integration tests
-└── README.md
-```
-
----
-
-## 9. Technology Stack
+## 8. Technology Stack
 
 | Layer         | Technology         |
 | ------------- | ------------------ |
@@ -292,7 +273,7 @@ fk_crawler/
 
 ---
 
-## 10. Evaluation Criteria and Delivery
+## 9. Evaluation Criteria and Delivery
 
 | Requirement                            | Status    |
 | -------------------------------------- | --------- |
@@ -305,7 +286,7 @@ fk_crawler/
 
 ---
 
-## 11. Conclusion
+## 10. Conclusion
 
 This project provides a complete solution for real-time monitoring of an e-commerce site. It covers data extraction, historical tracking, API access, and reporting—all built using scalable and maintainable Python practices. The architecture is modular, fault-tolerant, and fully documented, making it suitable for deployment and extension in real-world monitoring systems.
 
