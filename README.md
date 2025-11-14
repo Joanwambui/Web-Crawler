@@ -250,8 +250,8 @@ Below is the end-to-end flow of how the system works:
 
 ### MongoDB Final State View
 
-All book data, including unchanged entries, is maintained with crawl timestamps and content hashes.
-Remember, if changes are realize we will take snapshots of these changes then we will update our books collection with the correct changes.
+All book data, especially unchanged entries, is maintained with crawl timestamps and content hashes.
+Remember, if changes are realized we will take snapshots of these changes then we will update our books collection with the correct changes.
 <img width="1902" height="874" alt="image" src="https://github.com/user-attachments/assets/a715abd9-bf89-456d-b564-103251c1457c" />
 
 
