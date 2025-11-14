@@ -224,7 +224,8 @@ Used Swagger UI as shown below to test the endpoints. You can try it yourself on
 Every GET request if running on your machine and not yet deployed for public consumption for example on render, your terminal will return the 200 code.
 This lets us know the endpoints respond well.
 
-<img width="1840" height="152" alt="image" src="https://github.com/user-attachments/assets/716aaf9a-1f05-4690-a3ed-d95b91741bf3" />
+<img width="1890" height="374" alt="image" src="https://github.com/user-attachments/assets/cb1eaca9-ff2b-4353-bfac-2f8a2d8134e2" />
+
 
 
 
