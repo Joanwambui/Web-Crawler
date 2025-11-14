@@ -1,7 +1,6 @@
 # Web Monitoring System for BooksToScrape.com
 Monitors BooksToScrape.com using Scrapy + FastAPI. Detects changes, logs them in MongoDB, generates daily reports, and serves a secure REST API. Built with a production-grade folder structure, scheduler, and authentication. Basically: book-stalking, but make it techy.
 
-Here is a professional, structured, and clean **data storytelling document** that captures your entire project, using complete sentences and formal tone, without any unnecessary emojis or casual language.
 
 # Project Structure
 <img width="447" height="611" alt="image" src="https://github.com/user-attachments/assets/23d8a638-e42f-434a-90dc-8fad77167c8f" />
