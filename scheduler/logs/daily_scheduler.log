@@ -1,0 +1,163 @@
+2025-11-11 10:02:41,791 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-11 10:02:41,791 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-11 10:02:41.791546
+2025-11-11 10:02:42,934 [ERROR] \u274c Subprocess failed: Command '['scrapy', 'crawl', 'book_spider']' returned non-zero exit status 2.
+2025-11-11 10:02:42,934 [INFO] \U0001f553 Crawl and report completed in 1.14 seconds
+
+2025-11-11 10:07:28,726 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-11 10:07:28,727 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-11 10:07:28.727217
+2025-11-11 10:07:28,737 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-11 10:07:59,332 [INFO] \u2705 Crawl finished successfully
+2025-11-11 10:07:59,332 [INFO] \u25b6 Running: generate_report.py
+2025-11-11 10:08:01,757 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-11 10:08:01,757 [INFO] \U0001f553 Crawl + report completed in 33.03 seconds
+
+2025-11-11 10:08:19,903 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-11 10:08:19,904 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-11 10:08:19.904335
+2025-11-11 10:08:19,904 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-11 10:08:50,554 [INFO] \u2705 Crawl finished successfully
+2025-11-11 10:08:50,555 [INFO] \u25b6 Running: generate_report.py
+2025-11-11 10:08:52,713 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-11 10:08:52,713 [INFO] \U0001f553 Crawl + report completed in 32.81 seconds
+
+2025-11-11 10:29:46,010 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-11 10:29:46,010 [INFO] \U0001f4c5 Scheduler started... waiting for next run.
+2025-11-11 10:29:46,024 [INFO] Added job "run_crawler" to job store "default"
+2025-11-11 10:29:46,024 [INFO] Scheduler started
+2025-11-11 10:30:46,035 [INFO] Running job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:30:46 EAT)" (scheduled at 2025-11-11 10:30:46.010033+03:00)
+2025-11-11 10:30:46,036 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-11 10:30:46.036240
+2025-11-11 10:30:46,036 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-11 10:31:22,666 [INFO] \u2705 Crawl finished successfully
+2025-11-11 10:31:22,666 [INFO] \u25b6 Running: generate_report.py
+2025-11-11 10:31:25,742 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-11 10:31:25,743 [INFO] \U0001f553 Crawl + report completed in 39.71 seconds
+
+2025-11-11 10:31:25,743 [INFO] Job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:31:46 EAT)" executed successfully
+2025-11-11 10:31:46,013 [INFO] Running job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:32:46 EAT)" (scheduled at 2025-11-11 10:31:46.010033+03:00)
+2025-11-11 10:31:46,013 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-11 10:31:46.013243
+2025-11-11 10:31:46,013 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-11 10:32:19,565 [INFO] \u2705 Crawl finished successfully
+2025-11-11 10:32:19,565 [INFO] \u25b6 Running: generate_report.py
+2025-11-11 10:32:21,429 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-11 10:32:21,430 [INFO] \U0001f553 Crawl + report completed in 35.42 seconds
+
+2025-11-11 10:32:21,430 [INFO] Job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:32:46 EAT)" executed successfully
+2025-11-11 10:32:46,012 [INFO] Running job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:33:46 EAT)" (scheduled at 2025-11-11 10:32:46.010033+03:00)
+2025-11-11 10:32:46,012 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-11 10:32:46.012400
+2025-11-11 10:32:46,012 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-11 10:33:15,948 [INFO] \u2705 Crawl finished successfully
+2025-11-11 10:33:15,948 [INFO] \u25b6 Running: generate_report.py
+2025-11-11 10:33:17,077 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-11 10:33:17,077 [INFO] \U0001f553 Crawl + report completed in 31.06 seconds
+
+2025-11-11 10:33:17,077 [INFO] Job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:33:46 EAT)" executed successfully
+2025-11-11 10:33:46,023 [INFO] Running job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:34:46 EAT)" (scheduled at 2025-11-11 10:33:46.010033+03:00)
+2025-11-11 10:33:46,024 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-11 10:33:46.024054
+2025-11-11 10:33:46,024 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-11 10:34:18,587 [INFO] \u2705 Crawl finished successfully
+2025-11-11 10:34:18,588 [INFO] \u25b6 Running: generate_report.py
+2025-11-11 10:34:22,095 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-11 10:34:22,095 [INFO] \U0001f553 Crawl + report completed in 36.07 seconds
+
+2025-11-11 10:34:22,096 [INFO] Job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:34:46 EAT)" executed successfully
+2025-11-11 10:34:46,013 [INFO] Running job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:35:46 EAT)" (scheduled at 2025-11-11 10:34:46.010033+03:00)
+2025-11-11 10:34:46,013 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-11 10:34:46.013777
+2025-11-11 10:34:46,013 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-11 10:35:18,308 [INFO] \u2705 Crawl finished successfully
+2025-11-11 10:35:18,309 [INFO] \u25b6 Running: generate_report.py
+2025-11-11 10:35:21,333 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-11 10:35:21,333 [INFO] \U0001f553 Crawl + report completed in 35.32 seconds
+
+2025-11-11 10:35:21,333 [INFO] Job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:35:46 EAT)" executed successfully
+2025-11-11 10:35:46,010 [INFO] Running job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:36:46 EAT)" (scheduled at 2025-11-11 10:35:46.010033+03:00)
+2025-11-11 10:35:46,011 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-11 10:35:46.010964
+2025-11-11 10:35:46,011 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-11 10:36:16,555 [INFO] \u2705 Crawl finished successfully
+2025-11-11 10:36:16,555 [INFO] \u25b6 Running: generate_report.py
+2025-11-11 10:36:18,333 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-11 10:36:18,333 [INFO] \U0001f553 Crawl + report completed in 32.32 seconds
+
+2025-11-11 10:36:18,333 [INFO] Job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:36:46 EAT)" executed successfully
+2025-11-11 10:36:46,016 [INFO] Running job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:37:46 EAT)" (scheduled at 2025-11-11 10:36:46.010033+03:00)
+2025-11-11 10:36:46,017 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-11 10:36:46.017249
+2025-11-11 10:36:46,017 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-11 10:37:02,633 [INFO] \u2705 Crawl finished successfully
+2025-11-11 10:37:02,633 [INFO] \u25b6 Running: generate_report.py
+2025-11-11 10:37:03,440 [ERROR] \u274c Subprocess failed: Command '['C:\\FilersKeepers\\fk_crawler\\venv\\Scripts\\python.exe', 'C:\\FilersKeepers\\fk_crawler\\scheduler\\generate_report.py']' returned non-zero exit status 3221225786.
+2025-11-11 10:37:03,440 [INFO] \U0001f553 Crawl + report completed in 17.42 seconds
+
+2025-11-11 10:37:03,440 [INFO] Job "run_crawler (trigger: interval[0:01:00], next run at: 2025-11-11 10:37:46 EAT)" executed successfully
+2025-11-11 10:37:46,018 [INFO] \U0001f6d1 Scheduler stopped manually.
+2025-11-13 10:48:36,736 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-13 10:48:36,737 [INFO] \U0001f4c5 Scheduler started... waiting for next run.
+2025-11-13 10:48:36,767 [INFO] Added job "run_crawler" to job store "default"
+2025-11-13 10:48:36,767 [INFO] Scheduler started
+2025-11-13 12:05:31,375 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-13 12:05:31,376 [INFO] \U0001f4c5 Scheduler started... waiting for next run.
+2025-11-13 12:05:31,383 [INFO] Added job "run_crawler" to job store "default"
+2025-11-13 12:05:31,383 [INFO] Scheduler started
+2025-11-13 12:16:47,193 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-13 12:16:47,194 [INFO] \U0001f4c5 Scheduler started... waiting for next run.
+2025-11-13 12:16:47,202 [INFO] Added job "run_crawler" to job store "default"
+2025-11-13 12:16:47,202 [INFO] Scheduler started
+2025-11-13 12:17:53,041 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-13 12:17:53,041 [INFO] \U0001f4c5 Scheduler started... waiting for next run.
+2025-11-13 12:17:53,046 [INFO] Added job "run_crawler" to job store "default"
+2025-11-13 12:17:53,046 [INFO] Scheduler started
+2025-11-13 12:18:03,405 [INFO] \U0001f6d1 Received stop signal (2). Shutting down scheduler...
+2025-11-13 12:18:03,405 [INFO] Scheduler has been shut down
+2025-11-13 12:18:03,406 [INFO] \U0001f6d1 Received stop signal (None). Shutting down scheduler...
+2025-11-13 12:23:56,252 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-13 12:23:56,253 [INFO] \U0001f4c5 Scheduler started... waiting for next run.
+2025-11-13 12:23:56,256 [INFO] Added job "run_crawler" to job store "default"
+2025-11-13 12:23:56,256 [INFO] Scheduler started
+2025-11-13 12:24:00,007 [INFO] Running job "run_crawler (trigger: cron[hour='12', minute='24'], next run at: 2025-11-13 12:24:00 EAT)" (scheduled at 2025-11-13 12:24:00+03:00)
+2025-11-13 12:24:00,011 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-13 12:24:00.011435
+2025-11-13 12:24:00,011 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-13 12:24:15,877 [INFO] \u2705 Crawl finished successfully
+2025-11-13 12:24:15,877 [INFO] \u25b6 Running: generate_report.py
+2025-11-13 12:24:19,446 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-13 12:24:19,447 [INFO] \U0001f553 Crawl + report completed in 19.44 seconds
+
+2025-11-13 12:24:19,447 [INFO] Job "run_crawler (trigger: cron[hour='12', minute='24'], next run at: 2025-11-14 12:24:00 EAT)" executed successfully
+2025-11-13 12:26:29,628 [INFO] \U0001f6d1 Received stop signal (2). Shutting down scheduler...
+2025-11-13 12:26:29,628 [INFO] Scheduler has been shut down
+2025-11-13 12:26:29,629 [INFO] \U0001f6d1 Received stop signal (None). Shutting down scheduler...
+2025-11-13 20:59:44,737 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-13 20:59:44,738 [INFO] \U0001f4c5 Scheduler started... waiting for next run.
+2025-11-13 20:59:44,763 [INFO] Added job "run_crawler" to job store "default"
+2025-11-13 20:59:44,763 [INFO] Scheduler started
+2025-11-13 21:00:00,003 [INFO] Running job "run_crawler (trigger: cron[hour='21', minute='0'], next run at: 2025-11-13 21:00:00 EAT)" (scheduled at 2025-11-13 21:00:00+03:00)
+2025-11-13 21:00:00,004 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-13 21:00:00.004180
+2025-11-13 21:00:00,004 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-13 21:00:13,296 [INFO] \u2705 Crawl finished successfully
+2025-11-13 21:00:13,296 [INFO] \u25b6 Running: generate_report.py
+2025-11-13 21:00:14,576 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-13 21:00:14,576 [INFO] \U0001f553 Crawl + report completed in 14.57 seconds
+
+2025-11-13 21:00:14,576 [INFO] Job "run_crawler (trigger: cron[hour='21', minute='0'], next run at: 2025-11-14 21:00:00 EAT)" executed successfully
+2025-11-13 21:06:38,741 [INFO] \U0001f6d1 Received stop signal (2). Shutting down scheduler...
+2025-11-13 21:06:38,741 [INFO] Scheduler has been shut down
+2025-11-13 21:06:38,742 [INFO] \U0001f6d1 Received stop signal (None). Shutting down scheduler...
+2025-11-13 21:07:21,335 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-13 21:07:21,335 [INFO] \U0001f4c5 Scheduler started... waiting for next run.
+2025-11-13 21:07:21,338 [INFO] Added job "run_crawler" to job store "default"
+2025-11-13 21:07:21,338 [INFO] Scheduler started
+2025-11-13 21:07:33,709 [INFO] \U0001f6d1 Received stop signal (2). Shutting down scheduler...
+2025-11-13 21:07:33,710 [INFO] Scheduler has been shut down
+2025-11-13 21:07:33,710 [INFO] \U0001f6d1 Received stop signal (None). Shutting down scheduler...
+2025-11-13 21:11:45,270 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-13 21:11:45,271 [INFO] \U0001f4c5 Scheduler started... waiting for next run.
+2025-11-13 21:11:45,274 [INFO] Added job "run_crawler" to job store "default"
+2025-11-13 21:11:45,274 [INFO] Scheduler started
+2025-11-13 21:12:00,014 [INFO] Running job "run_crawler (trigger: cron[hour='21', minute='12'], next run at: 2025-11-13 21:12:00 EAT)" (scheduled at 2025-11-13 21:12:00+03:00)
+2025-11-13 21:12:00,015 [INFO] \U0001f550 Starting scheduled crawl at 2025-11-13 21:12:00.015034
+2025-11-13 21:12:00,015 [INFO] \u25b6 Running: scrapy crawl book_spider (cwd=C:\FilersKeepers\fk_crawler\books)
+2025-11-13 21:33:59,950 [INFO] \u2705 Crawl finished successfully
+2025-11-13 21:33:59,953 [INFO] \u25b6 Running: generate_report.py
+2025-11-13 21:34:02,663 [INFO] \U0001f4ca Daily report generated successfully
+2025-11-13 21:34:02,664 [INFO] \U0001f553 Crawl + report completed in 1322.65 seconds
+
+2025-11-13 21:34:02,668 [INFO] Job "run_crawler (trigger: cron[hour='21', minute='12'], next run at: 2025-11-14 21:12:00 EAT)" executed successfully
+2025-11-13 22:11:45,896 [INFO] \U0001f6d1 Received stop signal (2). Shutting down scheduler...
+2025-11-13 22:11:45,909 [INFO] Scheduler has been shut down
+2025-11-13 22:11:45,917 [INFO] \U0001f6d1 Received stop signal (None). Shutting down scheduler...

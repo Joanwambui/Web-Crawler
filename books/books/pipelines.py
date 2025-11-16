@@ -56,7 +56,7 @@ class MongoPipeline:
         "price_excl_tax",
         "price_incl_tax",
         "availability",
-        "content_hash",
+        #"content_hash",
     ]
 
     # -------------------------------------------------------------------------
@@ -248,14 +248,14 @@ class MongoPipeline:
         ts_date = timestamp.split("T")[0]
 
         # Per-day dedupe (book_id + date)
-        if changelog.find_one({"book_id": book_id, "date": ts_date}):
-            return
+        #if changelog.find_one({"book_id": book_id, "date": ts_date}):
+        #    return
 
         entry = {
             "book_id": book_id,
             "type": change_type,
             "changes": changes,
-            "timestamp": timestamp,
+            "timestamp": datetime.utcnow(),
             "date": ts_date,
         }
 

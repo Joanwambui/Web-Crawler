@@ -1,0 +1,212 @@
+2025-11-11 09:28:19,976 [INFO] Generating change report for window 2025-11-10T06:28:19.965973 \u2192 2025-11-11T06:28:19.965973
+2025-11-11 09:28:20,017 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 0
+2025-11-11 09:31:38,453 [INFO] Generating change report for window 2025-11-10T06:31:38.445880 \u2192 2025-11-11T06:31:38.445880
+2025-11-11 09:31:38,466 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 0
+2025-11-11 09:52:05,134 [INFO] Generating change report for window 2025-11-10 06:47:05.130350+00:00 \u2192 2025-11-11 06:57:05.130350+00:00
+2025-11-11 09:52:05,176 [ERROR] Failed to generate change report: [Errno 13] Permission denied: 'C:\\FilersKeepers\\fk_crawler\\scheduler\\..\\reports\\daily_changes_2025-11-10.csv'
+Traceback (most recent call last):
+  File "C:\FilersKeepers\fk_crawler\scheduler\generate_report.py", line 278, in main
+    csv_path = write_csv_report(payload, date_label)
+  File "C:\FilersKeepers\fk_crawler\scheduler\generate_report.py", line 251, in write_csv_report
+    with open(path, "w", encoding="utf-8", newline="") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\FilersKeepers\\fk_crawler\\scheduler\\..\\reports\\daily_changes_2025-11-10.csv'
+2025-11-11 09:52:57,926 [INFO] Generating change report for window 2025-11-10 06:47:57.921470+00:00 \u2192 2025-11-11 06:57:57.921470+00:00
+2025-11-11 09:52:57,962 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:07:58,264 [INFO] Generating change report for window 2025-11-10 07:02:58.253814+00:00 \u2192 2025-11-11 07:12:58.253814+00:00
+2025-11-11 10:07:58,280 [ERROR] Failed to generate change report: [Errno 13] Permission denied: 'C:\\FilersKeepers\\fk_crawler\\scheduler\\..\\reports\\daily_changes_2025-11-10.csv'
+Traceback (most recent call last):
+  File "C:\FilersKeepers\fk_crawler\scheduler\generate_report.py", line 278, in main
+    csv_path = write_csv_report(payload, date_label)
+  File "C:\FilersKeepers\fk_crawler\scheduler\generate_report.py", line 251, in write_csv_report
+    with open(path, "w", encoding="utf-8", newline="") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\FilersKeepers\\fk_crawler\\scheduler\\..\\reports\\daily_changes_2025-11-10.csv'
+2025-11-11 10:08:01,138 [INFO] Generating change report for window 2025-11-10 07:03:01.118494+00:00 \u2192 2025-11-11 07:13:01.118494+00:00
+2025-11-11 10:08:01,166 [ERROR] Failed to generate change report: [Errno 13] Permission denied: 'C:\\FilersKeepers\\fk_crawler\\scheduler\\..\\reports\\daily_changes_2025-11-10.csv'
+Traceback (most recent call last):
+  File "C:\FilersKeepers\fk_crawler\scheduler\generate_report.py", line 278, in main
+    csv_path = write_csv_report(payload, date_label)
+  File "C:\FilersKeepers\fk_crawler\scheduler\generate_report.py", line 251, in write_csv_report
+    with open(path, "w", encoding="utf-8", newline="") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\FilersKeepers\\fk_crawler\\scheduler\\..\\reports\\daily_changes_2025-11-10.csv'
+2025-11-11 10:08:49,479 [INFO] Generating change report for window 2025-11-10 07:03:49.472517+00:00 \u2192 2025-11-11 07:13:49.472517+00:00
+2025-11-11 10:08:49,494 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:08:52,109 [INFO] Generating change report for window 2025-11-10 07:03:52.099010+00:00 \u2192 2025-11-11 07:13:52.099010+00:00
+2025-11-11 10:08:52,126 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:31:21,371 [INFO] Generating change report for window 2025-11-10 07:26:21.348918+00:00 \u2192 2025-11-11 07:36:21.348918+00:00
+2025-11-11 10:31:21,402 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:31:25,092 [INFO] Generating change report for window 2025-11-10 07:26:25.079280+00:00 \u2192 2025-11-11 07:36:25.079280+00:00
+2025-11-11 10:31:25,137 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:32:18,517 [INFO] Generating change report for window 2025-11-10 07:27:18.508889+00:00 \u2192 2025-11-11 07:37:18.508889+00:00
+2025-11-11 10:32:18,545 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:32:20,814 [INFO] Generating change report for window 2025-11-10 07:27:20.805911+00:00 \u2192 2025-11-11 07:37:20.805911+00:00
+2025-11-11 10:32:20,848 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:33:15,057 [INFO] Generating change report for window 2025-11-10 07:28:15.053967+00:00 \u2192 2025-11-11 07:38:15.053967+00:00
+2025-11-11 10:33:15,079 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:33:16,520 [INFO] Generating change report for window 2025-11-10 07:28:16.516124+00:00 \u2192 2025-11-11 07:38:16.516124+00:00
+2025-11-11 10:33:16,530 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:34:17,230 [INFO] Generating change report for window 2025-11-10 07:29:17.221169+00:00 \u2192 2025-11-11 07:39:17.221169+00:00
+2025-11-11 10:34:17,245 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:34:21,451 [INFO] Generating change report for window 2025-11-10 07:29:21.442987+00:00 \u2192 2025-11-11 07:39:21.442987+00:00
+2025-11-11 10:34:21,465 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:35:17,124 [INFO] Generating change report for window 2025-11-10 07:30:17.112180+00:00 \u2192 2025-11-11 07:40:17.112180+00:00
+2025-11-11 10:35:17,146 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:35:20,653 [INFO] Generating change report for window 2025-11-10 07:30:20.634428+00:00 \u2192 2025-11-11 07:40:20.634428+00:00
+2025-11-11 10:35:20,707 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:36:15,504 [INFO] Generating change report for window 2025-11-10 07:31:15.494387+00:00 \u2192 2025-11-11 07:41:15.494387+00:00
+2025-11-11 10:36:15,533 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:36:17,642 [INFO] Generating change report for window 2025-11-10 07:31:17.635631+00:00 \u2192 2025-11-11 07:41:17.635631+00:00
+2025-11-11 10:36:17,668 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-11 10:37:01,750 [INFO] Generating change report for window 2025-11-10 07:32:01.746264+00:00 \u2192 2025-11-11 07:42:01.746264+00:00
+2025-11-11 10:37:01,780 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-10.csv (CSV). New: 0, Updated: 15
+2025-11-13 03:04:47,909 [INFO] Generating change report for window 2025-11-11 23:59:47.678483+00:00 \u2192 2025-11-13 00:09:47.678483+00:00
+2025-11-13 03:04:49,568 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-11.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-11.csv (CSV). New: 0, Updated: 20
+2025-11-13 03:54:52,539 [INFO] Generating change report for window 2025-11-12 00:49:52.499901+00:00 \u2192 2025-11-13 00:59:52.499901+00:00
+2025-11-13 03:54:52,930 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-12.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-12.csv (CSV). New: 0, Updated: 20
+2025-11-13 04:26:39,383 [INFO] Generating change report for window 2025-11-12 01:21:39.368844+00:00 \u2192 2025-11-13 01:31:39.368844+00:00
+2025-11-13 04:26:39,847 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-12.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-12.csv (CSV). New: 0, Updated: 20
+2025-11-13 05:06:27,426 [INFO] Generating change report for window 2025-11-12 02:01:27.399854+00:00 \u2192 2025-11-13 02:11:27.399854+00:00
+2025-11-13 05:06:27,772 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-12.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-12.csv (CSV). New: 0, Updated: 20
+2025-11-13 10:01:01,395 [INFO] Generating change report for window 2025-11-12 06:56:01.389977+00:00 \u2192 2025-11-13 07:06:01.389977+00:00
+2025-11-13 10:01:01,504 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_07-01-01.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_07-01-01.csv (CSV). New: 0, Updated: 20
+2025-11-13 10:39:10,471 [INFO] Generating change report for window 2025-11-12 07:34:10.456789+00:00 \u2192 2025-11-13 07:44:10.456789+00:00
+2025-11-13 10:39:10,659 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_07-39-10.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_07-39-10.csv (CSV). New: 0, Updated: 20
+2025-11-13 12:24:14,692 [INFO] Generating change report for window 2025-11-12 09:19:14.674390+00:00 \u2192 2025-11-13 09:29:14.674390+00:00
+2025-11-13 12:24:14,881 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_09-24-14.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_09-24-14.csv (CSV). New: 0, Updated: 20
+2025-11-13 12:24:18,535 [INFO] Generating change report for window 2025-11-12 09:19:18.516910+00:00 \u2192 2025-11-13 09:29:18.516910+00:00
+2025-11-13 12:24:18,579 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_09-24-18.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_09-24-18.csv (CSV). New: 0, Updated: 20
+2025-11-13 13:22:44,315 [INFO] Generating change report for window 2025-11-12 10:17:44.276265+00:00 \u2192 2025-11-13 10:27:44.276265+00:00
+2025-11-13 13:22:44,751 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-22-44.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-22-44.csv (CSV). New: 0, Updated: 20
+2025-11-13 13:30:17,967 [INFO] Generating change report for window 2025-11-12 10:25:17.959641+00:00 \u2192 2025-11-13 10:35:17.959641+00:00
+2025-11-13 13:30:18,005 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-30-18.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-30-18.csv (CSV). New: 0, Updated: 20
+2025-11-13 13:32:36,765 [INFO] Generating change report for window 2025-11-12 10:27:36.758230+00:00 \u2192 2025-11-13 10:37:36.758230+00:00
+2025-11-13 13:32:36,829 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-32-36.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-32-36.csv (CSV). New: 0, Updated: 20
+2025-11-13 13:38:43,347 [INFO] Generating change report for window 2025-11-12 10:33:43.342466+00:00 \u2192 2025-11-13 10:43:43.342466+00:00
+2025-11-13 13:38:43,386 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-38-43.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-38-43.csv (CSV). New: 0, Updated: 20
+2025-11-13 13:39:51,801 [INFO] Generating change report for window 2025-11-12 10:34:51.793958+00:00 \u2192 2025-11-13 10:44:51.793958+00:00
+2025-11-13 13:39:51,833 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-39-51.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-39-51.csv (CSV). New: 0, Updated: 20
+2025-11-13 13:41:21,950 [INFO] Generating change report for window 2025-11-12 10:36:21.942155+00:00 \u2192 2025-11-13 10:46:21.942155+00:00
+2025-11-13 13:41:22,001 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-41-21.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-41-21.csv (CSV). New: 0, Updated: 20
+2025-11-13 13:41:36,871 [INFO] Generating change report for window 2025-11-12 10:36:36.864507+00:00 \u2192 2025-11-13 10:46:36.864507+00:00
+2025-11-13 13:41:36,903 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-41-36.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-41-36.csv (CSV). New: 0, Updated: 20
+2025-11-13 13:50:39,173 [INFO] Generating change report for window 2025-11-12 10:45:39.166478+00:00 \u2192 2025-11-13 10:55:39.166478+00:00
+2025-11-13 13:50:39,225 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-50-39.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-50-39.csv (CSV). New: 0, Updated: 20
+2025-11-13 13:51:29,567 [INFO] Generating change report for window 2025-11-12 10:46:29.561237+00:00 \u2192 2025-11-13 10:56:29.561237+00:00
+2025-11-13 13:51:29,599 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-51-29.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-51-29.csv (CSV). New: 0, Updated: 20
+2025-11-13 13:55:42,930 [INFO] Generating change report for window 2025-11-12 10:50:42.925816+00:00 \u2192 2025-11-13 11:00:42.925816+00:00
+2025-11-13 13:55:42,972 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-55-42.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_10-55-42.csv (CSV). New: 0, Updated: 20
+2025-11-13 14:08:40,375 [INFO] Generating change report for window 2025-11-12 11:03:40.370474+00:00 \u2192 2025-11-13 11:13:40.370474+00:00
+2025-11-13 14:08:40,393 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_11-08-40.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_11-08-40.csv (CSV). New: 0, Updated: 20
+2025-11-13 14:31:36,880 [INFO] Generating change report for window 2025-11-12 11:26:36.876036+00:00 \u2192 2025-11-13 11:36:36.876036+00:00
+2025-11-13 14:31:36,980 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_11-31-36.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_11-31-36.csv (CSV). New: 0, Updated: 20
+2025-11-13 14:35:52,822 [INFO] Generating change report for window 2025-11-12 11:30:52.816678+00:00 \u2192 2025-11-13 11:40:52.816678+00:00
+2025-11-13 14:35:52,836 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_11-35-52.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_11-35-52.csv (CSV). New: 0, Updated: 20
+2025-11-13 14:39:02,139 [INFO] Generating change report for window 2025-11-12 11:34:02.121130+00:00 \u2192 2025-11-13 11:44:02.121130+00:00
+2025-11-13 14:39:02,183 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_11-39-02.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_11-39-02.csv (CSV). New: 0, Updated: 20
+2025-11-13 14:40:17,655 [INFO] Generating change report for window 2025-11-12 11:35:17.646403+00:00 \u2192 2025-11-13 11:45:17.646403+00:00
+2025-11-13 14:40:17,692 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_11-40-17.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_11-40-17.csv (CSV). New: 0, Updated: 20
+2025-11-13 15:09:01,687 [INFO] Generating change report for window 2025-11-12 12:04:01.669349+00:00 \u2192 2025-11-13 12:14:01.669349+00:00
+2025-11-13 15:09:01,782 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-09-01.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-09-01.csv (CSV). New: 0, Updated: 20
+2025-11-13 15:32:24,200 [INFO] Generating change report for window 2025-11-12 12:27:24.195106+00:00 \u2192 2025-11-13 12:37:24.195106+00:00
+2025-11-13 15:32:24,373 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-32-24.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-32-24.csv (CSV). New: 0, Updated: 20
+2025-11-13 15:36:56,944 [INFO] Generating change report for window 2025-11-12 12:31:56.939384+00:00 \u2192 2025-11-13 12:41:56.939384+00:00
+2025-11-13 15:36:56,999 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-36-56.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-36-56.csv (CSV). New: 0, Updated: 20
+2025-11-13 15:41:26,953 [INFO] Generating change report for window 2025-11-12 12:36:26.947594+00:00 \u2192 2025-11-13 12:46:26.947594+00:00
+2025-11-13 15:41:26,991 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-41-26.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-41-26.csv (CSV). New: 0, Updated: 20
+2025-11-13 15:42:09,934 [INFO] Generating change report for window 2025-11-12 12:37:09.929266+00:00 \u2192 2025-11-13 12:47:09.929266+00:00
+2025-11-13 15:42:09,986 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-42-09.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-42-09.csv (CSV). New: 0, Updated: 20
+2025-11-13 15:43:45,281 [INFO] Generating change report for window 2025-11-12 12:38:45.274026+00:00 \u2192 2025-11-13 12:48:45.274026+00:00
+2025-11-13 15:43:45,312 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-43-45.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-43-45.csv (CSV). New: 0, Updated: 20
+2025-11-13 15:49:20,831 [INFO] Generating change report for window 2025-11-12 12:44:20.824901+00:00 \u2192 2025-11-13 12:54:20.824901+00:00
+2025-11-13 15:49:20,862 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-49-20.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-49-20.csv (CSV). New: 0, Updated: 20
+2025-11-13 15:50:25,583 [INFO] Generating change report for window 2025-11-12 12:45:25.576262+00:00 \u2192 2025-11-13 12:55:25.576262+00:00
+2025-11-13 15:50:25,605 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-50-25.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-50-25.csv (CSV). New: 0, Updated: 20
+2025-11-13 15:52:08,377 [INFO] Generating change report for window 2025-11-12 12:47:08.371796+00:00 \u2192 2025-11-13 12:57:08.371796+00:00
+2025-11-13 15:52:08,418 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-52-08.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_12-52-08.csv (CSV). New: 0, Updated: 20
+2025-11-13 16:18:50,221 [INFO] Generating change report for window 2025-11-12 13:13:50.216167+00:00 \u2192 2025-11-13 13:23:50.216167+00:00
+2025-11-13 16:18:50,348 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_13-18-50.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_13-18-50.csv (CSV). New: 0, Updated: 20
+2025-11-13 16:37:24,124 [INFO] Generating change report for window 2025-11-12 13:32:24.116427+00:00 \u2192 2025-11-13 13:42:24.116427+00:00
+2025-11-13 16:37:24,189 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_13-37-24.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_13-37-24.csv (CSV). New: 0, Updated: 20
+2025-11-13 16:43:59,766 [INFO] Generating change report for window 2025-11-12 13:38:59.761408+00:00 \u2192 2025-11-13 13:48:59.761408+00:00
+2025-11-13 16:43:59,807 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_13-43-59.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_13-43-59.csv (CSV). New: 0, Updated: 20
+2025-11-13 16:48:42,066 [INFO] Generating change report for window 2025-11-12 13:43:42.059578+00:00 \u2192 2025-11-13 13:53:42.059578+00:00
+2025-11-13 16:48:42,099 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_13-48-42.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_13-48-42.csv (CSV). New: 0, Updated: 20
+2025-11-13 16:50:43,667 [INFO] Generating change report for window 2025-11-12 13:45:43.660862+00:00 \u2192 2025-11-13 13:55:43.660862+00:00
+2025-11-13 16:50:43,688 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_13-50-43.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_13-50-43.csv (CSV). New: 0, Updated: 20
+2025-11-13 17:02:23,110 [INFO] Generating change report for window 2025-11-12 13:57:23.103467+00:00 \u2192 2025-11-13 14:07:23.103467+00:00
+2025-11-13 17:02:23,182 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-02-23.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-02-23.csv (CSV). New: 0, Updated: 20
+2025-11-13 17:08:55,254 [INFO] Generating change report for window 2025-11-12 14:03:55.249373+00:00 \u2192 2025-11-13 14:13:55.249373+00:00
+2025-11-13 17:08:55,277 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-08-55.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-08-55.csv (CSV). New: 0, Updated: 20
+2025-11-13 17:21:35,570 [INFO] Generating change report for window 2025-11-12 14:16:35.563031+00:00 \u2192 2025-11-13 14:26:35.563031+00:00
+2025-11-13 17:21:35,725 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-21-35.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-21-35.csv (CSV). New: 0, Updated: 20
+2025-11-13 17:23:46,194 [INFO] Generating change report for window 2025-11-12 14:18:46.188800+00:00 \u2192 2025-11-13 14:28:46.188800+00:00
+2025-11-13 17:23:46,215 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-23-46.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-23-46.csv (CSV). New: 0, Updated: 20
+2025-11-13 17:26:51,920 [INFO] Generating change report for window 2025-11-12 14:21:51.915141+00:00 \u2192 2025-11-13 14:31:51.915141+00:00
+2025-11-13 17:26:51,964 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-26-51.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-26-51.csv (CSV). New: 0, Updated: 20
+2025-11-13 17:45:01,577 [INFO] Generating change report for window 2025-11-12 14:40:01.572688+00:00 \u2192 2025-11-13 14:50:01.572688+00:00
+2025-11-13 17:45:01,615 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-45-01.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_14-45-01.csv (CSV). New: 0, Updated: 20
+2025-11-13 18:01:47,614 [INFO] Generating change report for window 2025-11-12 14:56:47.605915+00:00 \u2192 2025-11-13 15:06:47.605915+00:00
+2025-11-13 18:01:47,720 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_15-01-47.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_15-01-47.csv (CSV). New: 0, Updated: 20
+2025-11-13 18:32:15,318 [INFO] [CHANGE REPORT] Window 2025-11-12T15:32:14.255112+00:00 â†’ 2025-11-13T15:32:14.255112+00:00 | New: 0 | Updated: 0
+2025-11-13 18:32:15,324 [INFO] [CHANGE REPORT] No changes found in window. Empty report daily_changes_2025-11-13_15-32-15.csv generated.
+2025-11-13 18:37:28,556 [INFO] Generating change report for window 2025-11-12 15:32:28.551516+00:00 \u2192 2025-11-13 15:42:28.551516+00:00
+2025-11-13 18:37:28,664 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_15-37-28.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_15-37-28.csv (CSV). New: 0, Updated: 20
+2025-11-13 18:39:09,315 [INFO] Generating change report for window 2025-11-12 15:34:09.307904+00:00 \u2192 2025-11-13 15:44:09.307904+00:00
+2025-11-13 18:39:09,348 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_15-39-09.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_15-39-09.csv (CSV). New: 0, Updated: 20
+2025-11-13 18:51:24,457 [INFO] Generating change report for window 2025-11-12 15:46:24.450519+00:00 \u2192 2025-11-13 15:56:24.450519+00:00
+2025-11-13 18:51:24,530 [INFO] Change report generated: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_15-51-24.json (JSON), C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_15-51-24.csv (CSV). New: 0, Updated: 20
+2025-11-13 18:57:01,265 [INFO] Generating change report for 2025-11-12 15:52:01.257803+00:00 \u2192 2025-11-13 16:02:01.257803+00:00
+2025-11-13 18:57:01,290 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_15-57-01.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_15-57-01.csv
+2025-11-13 19:05:09,289 [INFO] Generating change report for 2025-11-12 16:00:09.283629+00:00 \u2192 2025-11-13 16:10:09.283629+00:00
+2025-11-13 19:05:09,336 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-05-09.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-05-09.csv
+2025-11-13 19:15:32,453 [INFO] Generating change report for 2025-11-12 16:10:32.448461+00:00 \u2192 2025-11-13 16:20:32.448461+00:00
+2025-11-13 19:15:32,483 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-15-32.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-15-32.csv
+2025-11-13 19:24:57,339 [INFO] Generating change report for 2025-11-12 16:19:57.331240+00:00 \u2192 2025-11-13 16:29:57.331240+00:00
+2025-11-13 19:24:57,380 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-24-57.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-24-57.csv
+2025-11-13 19:25:39,856 [INFO] Generating change report for 2025-11-12 16:20:39.850208+00:00 \u2192 2025-11-13 16:30:39.850208+00:00
+2025-11-13 19:25:39,891 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-25-39.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-25-39.csv
+2025-11-13 19:32:02,849 [INFO] Generating change report for 2025-11-12 16:27:02.843007+00:00 \u2192 2025-11-13 16:37:02.843007+00:00
+2025-11-13 19:32:02,884 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-32-02.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-32-02.csv
+2025-11-13 19:39:09,936 [INFO] Generating change report for 2025-11-12 16:34:09.931239+00:00 \u2192 2025-11-13 16:44:09.931239+00:00
+2025-11-13 19:39:09,978 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-39-09.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_16-39-09.csv
+2025-11-13 20:22:12,539 [INFO] Generating change report for 2025-11-12 17:17:12.532704+00:00 \u2192 2025-11-13 17:27:12.532704+00:00
+2025-11-13 20:22:12,637 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_17-22-12.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_17-22-12.csv
+2025-11-13 20:49:48,064 [INFO] Generating change report for 2025-11-12 17:44:48.036355+00:00 \u2192 2025-11-13 17:54:48.036355+00:00
+2025-11-13 20:49:48,207 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_17-49-48.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_17-49-48.csv
+2025-11-13 21:00:05,086 [INFO] Generating change report for 2025-11-12 17:55:05.080899+00:00 \u2192 2025-11-13 18:05:05.080899+00:00
+2025-11-13 21:00:05,120 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_18-00-05.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_18-00-05.csv
+2025-11-13 21:00:14,001 [INFO] Generating change report for 2025-11-12 17:55:13.995808+00:00 \u2192 2025-11-13 18:05:13.995808+00:00
+2025-11-13 21:00:14,038 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_18-00-14.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_18-00-14.csv
+2025-11-13 21:33:56,032 [INFO] Generating change report for 2025-11-12 18:28:56.016543+00:00 \u2192 2025-11-13 18:38:56.016543+00:00
+2025-11-13 21:33:56,124 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_18-33-56.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_18-33-56.csv
+2025-11-13 21:34:01,992 [INFO] Generating change report for 2025-11-12 18:29:01.976599+00:00 \u2192 2025-11-13 18:39:01.976599+00:00
+2025-11-13 21:34:02,045 [INFO] Report written: C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_18-34-02.json, C:\FilersKeepers\fk_crawler\scheduler\..\reports\daily_changes_2025-11-13_18-34-02.csv
+2025-11-16 07:53:50,896 [INFO] Generating change report for 2025-11-15 04:48:50.892473+00:00 \u2192 2025-11-16 04:58:50.892473+00:00
+2025-11-16 07:53:51,026 [INFO] No changes detected — report not generated.
+2025-11-16 08:33:04,344 [INFO] Generating change report for 2025-11-15 05:28:04.325499+00:00 \u2192 2025-11-16 05:38:04.325499+00:00
+2025-11-16 08:33:04,517 [INFO] No changes detected — report not generated.
+2025-11-16 08:42:41,963 [INFO] Generating change report for 2025-11-15 05:37:41.957925+00:00 \u2192 2025-11-16 05:47:41.957925+00:00
+2025-11-16 08:42:42,018 [INFO] No changes detected — report not generated.
+2025-11-16 08:44:35,824 [INFO] Generating change report for 2025-11-15 05:39:35.816973+00:00 \u2192 2025-11-16 05:49:35.816973+00:00
+2025-11-16 08:44:35,873 [INFO] No changes detected — report not generated.
+2025-11-16 09:12:23,670 [INFO] Generating change report for 2025-11-15 06:07:23.654740+00:00 \u2192 2025-11-16 06:17:23.654740+00:00
+2025-11-16 09:12:23,781 [INFO] No changes detected — report not generated.
+2025-11-16 09:49:21,673 [INFO] Generating change report for 2025-11-15 06:44:21.654070+00:00 \u2192 2025-11-16 06:54:21.654070+00:00
+2025-11-16 09:49:21,817 [INFO] No changes detected — report not generated.
+2025-11-16 10:06:36,080 [INFO] Generating change report for 2025-11-15 07:01:36.073073+00:00 \u2192 2025-11-16 07:11:36.073073+00:00
+2025-11-16 10:06:36,138 [INFO] No changes detected — report not generated.
+2025-11-16 10:08:19,908 [INFO] Generating change report for 2025-11-15 07:03:19.902692+00:00 \u2192 2025-11-16 07:13:19.902692+00:00
+2025-11-16 10:08:19,958 [INFO] No changes detected — report not generated.
+2025-11-16 10:41:06,311 [INFO] Generating change report for 2025-11-15 07:36:06.221918+00:00 \u2192 2025-11-16 07:46:06.221918+00:00
+2025-11-16 10:41:06,460 [INFO] No changes detected — report not generated.
+2025-11-16 10:52:35,411 [INFO] Generating change report for 2025-11-15 07:47:35.392412+00:00 \u2192 2025-11-16 07:57:35.392412+00:00
+2025-11-16 10:52:35,468 [INFO] No changes detected — report not generated.
+2025-11-16 11:23:21,514 [INFO] Generating change report for 2025-11-15 08:18:21.496098+00:00 \u2192 2025-11-16 08:28:21.496098+00:00
+2025-11-16 11:23:21,670 [INFO] No changes detected — report not generated.
+2025-11-16 12:05:06,819 [INFO] Generating change report for 2025-11-15 09:00:06.791833+00:00 \u2192 2025-11-16 09:10:06.791833+00:00
+2025-11-16 12:05:07,013 [INFO] No changes detected — report not generated.
+2025-11-16 12:16:09,114 [INFO] Searching for changes with date=2025-11-16
+2025-11-16 12:16:09,169 [INFO] Found 0 change logs for 2025-11-16
+2025-11-16 12:16:09,170 [INFO] No changes found—report not generated.
